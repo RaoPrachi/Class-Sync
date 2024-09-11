@@ -1,0 +1,140 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #110a24;
+  height:47px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.logo{
+  height:46px;
+  width:46.4px;
+  border-radius: 50%;
+}
+  
+ body{
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A9A9A9;
+  }
+  
+  header {
+    background-color: #808080;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .founders-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .founder {
+    text-align: center;
+    width:400px;
+    margin: 20px;
+    color: whitesmoke;
+    background-color:#15181A;
+    padding:15px;
+  }
+  
+  .founder img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid #333;
+  }
+
+  .founder p{
+    font-size: 20px;
+  }
+  
+  .founder h2 {
+    margin: 10px 0;
+  }
+  
+  .position {
+    color: #777;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #110a24;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
